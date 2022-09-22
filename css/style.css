@@ -16,3 +16,30 @@ h2
     font-size: 40px;
     margin-top: 0;
 }
+
+button
+{
+    width: 200px;
+    border: none;   
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+
+}
+#increment-btn
+{
+    background-color: rgb(224, 179, 30);
+}
+#increment-btn:hover
+{
+    background-color: rgb(223, 152, 22);
+}
+
+#increment-btn:active
+{
+    transform: translateY(2px);
+}
