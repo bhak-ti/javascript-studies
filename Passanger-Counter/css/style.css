@@ -30,6 +30,8 @@ button
     box-shadow: 2px 5px 10px rgb(0, 0, 0);
 
 }
+
+/* increment-button */
 #increment-btn
 {
     background-color: rgb(224, 179, 30);
@@ -40,6 +42,38 @@ button
 }
 
 #increment-btn:active
+{
+    transform: translateY(2px);
+}
+
+/* save button */
+#save-btn
+{
+    margin-top: 10px;
+    background-color: rgb(0, 119, 26);
+}
+#save-btn:hover
+{
+    background-color: rgb(0, 112, 15);
+}
+
+#save-btn:active
+{
+    transform: translateY(2px);
+}
+
+/* reset button */
+#reset-btn
+{
+    margin-top: 10px;
+    background-color: rgb(163, 0, 0);
+}
+#reset-btn:hover
+{
+    background-color: rgb(116, 11, 4);
+}
+
+#reset-btn:active
 {
     transform: translateY(2px);
 }
